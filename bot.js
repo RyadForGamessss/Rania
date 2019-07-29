@@ -47,7 +47,7 @@ if (message.content.startsWith(prefix + 'RaNia')) {
 if (message.content.startsWith(prefix + 'setgame')) {
   client.user.setGame(argresult);
      console.log('test' + argresult);
-    message.channel.sendMessage(`Playing: **${argresult}`)
+    message.channel.sendMessage(`:white_check_mark: ${argresult}`)
 } 
 
 
