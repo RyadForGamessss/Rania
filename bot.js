@@ -21,7 +21,7 @@ client.on('message', message => {
 } 
 
  
-  if (message.content.startsWith(prefix + 'setlis')) {
+  if (message.content.startsWith(prefix + 'NetflixLs')) {
   client.user.setActivity(argresult, {type: 'LISTENING'})
      console.log('test' + argresult);
     message.channel.sendMessage(`LISTENING Now: **${argresult}`)
@@ -34,7 +34,7 @@ if (message.content.startsWith(prefix + 'NetflixUc')) {
   return message.reply("You Can change the username 2 times per hour");
 } 
 
-if (message.content.startsWith(prefix + 'setavatar')) {
+if (message.content.startsWith(prefix + 'NetflixAv')) {
   client.user.setAvatar(argresult);
    message.channel.sendMessage(`:white_check_mark: ${argresult}**`);
 }
